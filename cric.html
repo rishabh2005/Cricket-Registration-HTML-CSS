@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Cricket Registration</title>
+    <link rel="stylesheet" href="form.css" .css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&di
+splay=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swa
+p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Cricketer Registration</h1>
+    <form action="/nothing">
+        <p>
+            <label for="username">Name :</label>
+            <input id="username" type="text" placeholder="Type Here..." name="username" required>
+        </p>
+        <p>
+            <label for="dob">Date Of Birth :</label>
+            <input type="date" id="dob" name="dob" required>
+        </p>
+        <p>
+            <label for="password">Enter password :</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+        <h4>Which format(s) suit(s) you best?</h4>
+        <label for="t20">T-20<label>
+                <input type="checkbox" name="t20" id="t20">
+                <label for="odi">One-Day</label>
+
+                <input type="checkbox" name="odi" id="odi">
+                <label for="test">Test Cricket</label>
+                <input type="checkbox" name="test" id="test">
+                </p>
+                <button>Submit</button>
+    </form>
+</body>
+
+</html>
